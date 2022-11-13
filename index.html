@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IMC Health</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital@0;1&family=Hind+Siliguri:wght@500&family=Roboto:ital,wght@0,500;1,300;1,400&display=swap" rel="stylesheet">
+    
+    
+    <link rel="stylesheet" href="./styles/style-index-body.css">
+    <link rel="stylesheet" href="./styles/style-index-login.css">
+</head>
+
+<body id="body">
+    <header>
+        <div id="header">
+            <div id="header-back-blur"></div>
+            <div id="logo-text">
+                <a href="">IMC Health</a>
+            </div>
+            <div id="menu-text">
+                <a href="">Inicio</a>
+                <a href="">Sobre</a>
+                <a href="">Ajuda</a>
+            </div>
+            <div id="user">
+                <div id="img-user">
+                    <img id="img-user-open-panel" src="./assets/img/user/user-img.png" alt="">
+                </div>
+
+            </div>
+        
+
+        <div id="menu_user">
+            <div id="sub-menus-user">
+                <button type="submit" id="sub_menus_user_login">Login</button>
+
+            </div>
+
+        </div>
+    </div>
+    </header>
+
+
+
+
+
+
+    <section id="meio">
+        
+        <div id="corpo-content">
+
+
+        <div id="content-texts">
+            <p id="tex1">IMC <br>
+                Health</p>
+                
+            <p id="text2">
+                Descubra seu IMC Aqui.
+            </p>
+
+            <p id="text3">
+                Criamos uma plataforma para calcular o IMC. <br>
+                Saúde em Primero Lugar.
+            </p>
+        </div>
+
+        <div id="calculo">
+            <button id="button_cal" type="submit">Calcule Aqui</button>
+        
+
+        </div>
+
+        <div id="calculo-background">
+            <div id="calculo-function">
+                <div id="calculo-titulo">
+                    <p>Índice de Massa Corporal</p>
+                </div>
+                <div id="text-calculo">
+                    <p id="imc-results">Ainda não sabe qual o seu Índice de Massa Corporal (IMC)? </p>
+                </div>
+                <div id="text-calculo-class">
+                <p id="imc-results-nivel">Classificação: <b style='padding: 10px; border-radius: 10px; background-color: rgb(208, 255, 0);'>Obesidade Nivel I</b></p>
+                </div>
+                <div id="inputs-calculo">
+                    <input type="number" name="altura" placeholder="Altura (ex.: 1,70)" id="altura_number">
+                    <br>
+                    <input type="number" name="peso" placeholder="Peso (ex.: 69,2)" id="peso_number">
+                </div>
+                <div id="button-calcular"> 
+                    <button id="calcular-imc" type="submit">Calcular</button>
+                </div>
+                <div id="button-feedback"> 
+                    <button type="submit">Feedback</button>
+                </div>
+            </div>
+
+        </div>
+
+            <div id="imc-content-img">
+                <img id="imc-img" src="./assets/img/background/main/background-imc.png" alt="" srcset="">
+                <img id="imc-img-blur" src="./assets/img/background/main/background-imc.png" alt="" srcset="">
+            </div>
+        </div>
+
+        <div id="login_panel_">
+
+            <div id="login">
+                <div id="login-text">
+                    <h1>
+                        Login
+                    </h1>
+                    <p id="fechar_login">X</p>
+
+                </div>
+                <div id="info_user">
+                    
+                    <input type="email" name="emailforuser" id="email_user_login" placeholder="Email">
+                    <input type="password" name="passwordforuser" id="password_user_login" placeholder="Senha">
+         
+                </div>
+                
+                <div id="entrar_button">
+                    <!--<input type="submit" id="button_login_entrar" value="Entrar"> -->
+                        <a id="button_login_entrar" href="./index-logado.html">Entrar</a>
+
+                </div>
+
+                <div id="lembrarlogin">
+                    <input type="checkbox" name="LembrarLogin" id="lembrar_login"> Lembrar Login </input>
+                    <p>Não tem Login?</p>
+
+                </div>
+                </div>
+
+            </div>
+            </div>
+    </section>
+
+
+
+
+
+    <footer id="rodape">
+        <div id="categorias-footer">
+                    <a href="#">FALE CONOSCO</a>
+                    <a href="#">FIQUE POR DENTRO</a>
+                    <a href="#">TERMOS DE USO</a>
+                    <a href="#">PRIVACIDADE</a>
+        </div>
+        <div id="img-footer">
+            <img src="./assets/img/background/footer/footer-logo.png" alt="">
+        </div>
+    </footer>
+
+    <script src="./js/js-index-body.js"></script>
+    <script src="./js/js-index-login.js"></script>
+</body>
+
+
+
+</html>

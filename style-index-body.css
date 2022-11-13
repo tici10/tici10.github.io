@@ -1,0 +1,392 @@
+body {
+    margin: 0 auto;
+    background-color: #BDF1FF;
+    font-family: Arial;
+
+
+}
+
+#header-back-blur{
+    padding: 10px;
+    background-color: rgba(255, 255, 255, 0.94);
+    width: 1380px;
+    height: 60px;
+    position: fixed;
+    display: block;
+    border-radius: 25px;
+    box-shadow: 1px 3px 5px 0px rgb(119, 119, 119);
+    margin: auto;
+    filter: blur(3px);
+}
+
+/*header*/
+#header {
+    padding: 10px;
+    background-color: rgb(255, 255, 255, 0.0);
+    width: 1380px;
+    height: 60px;
+    position: fixed;
+    display: flex;
+    top: 55px;
+    left: 153px;
+    border-radius: 25px;
+    margin: auto;
+    z-index: 1;
+}
+#logo-text a{
+    text-decoration: none;
+    font-size: 30px;
+    color: black;
+    font-weight: bold;
+    position: absolute;
+    left: 50px;
+    text-align: center;
+    top: 32px;
+    width: 200px;
+    transition: 0.3s;
+}
+#logo-text a:hover {
+    left: 60px;
+    top: 32px;
+    transition: 0.3s;
+}
+
+#menu-text {
+    position: relative;
+    left: 620px;
+    top: 10px;
+    width: 429px;
+    height: 30px;
+    margin: auto;
+    display: block;
+}
+#menu-text a{
+    text-decoration: none;
+    font-family: helvetica;
+    font-size: 22px;
+    color: black;
+    padding: 15px;
+    margin: 5px;
+    transition: 0.3s;
+    border-radius: 30px;
+    display: inline;
+    width: 100px;
+    padding-left: 30px;
+    padding-right: 30px;
+ 
+}
+#menu-text a:hover {
+    background-color: #0090DE;
+    transition: 0.3s;
+    border-radius: 30px;
+    color:white;
+    border-radius: 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    transform: scaleX(5);
+}
+#user {
+    left: 180px;
+    position: relative;
+    width: 50px;
+    margin: auto;
+    top: 7px;
+
+}
+#img-user img{
+    height: 55px;
+    cursor: pointer;
+
+}
+
+/*main*/
+#content-texts {
+    display: block;
+    position: relative;
+    left: 359px;
+    top: 140px;
+    width: 612px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+#tex1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 70px;
+    
+    text-shadow: 1px 1px 2px rgb(136, 136, 136);
+}
+#text2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    color: green;
+    text-shadow: 1px 1px 2px rgb(136, 136, 136);
+}
+#text3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    position: relative;
+    top: -10px;
+    text-shadow: 1px 1px 2px rgb(136, 136, 136);
+
+}
+#text-calculo{
+    position: absolute;
+    left: 350px;
+    bottom: 150px;
+    width: 40%;
+}
+#imc-results {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 23px;
+
+
+    
+    
+}
+#imc-results-nivel {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    position: relative;
+    top: 200px;
+    
+} 
+#calculo {
+    position: relative;
+    left: 180px;
+    top: 200px;
+    width: 262px;
+    margin: auto;
+}
+#calculo button {
+    background-color: white;
+    border: 2px solid black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 15px;
+    padding-left: 70px;
+    padding-right: 70px;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    position: absolute;
+
+}
+#calculo button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.3s;
+    border: 2px solid rgb(255, 255, 255);
+    border-radius: 20px;
+}
+
+
+#imc-img{
+    position: relative;
+    left: 20px;
+    width: 800px;
+    bottom: 750px;
+    display: block;
+}
+#imc-img-blur {
+    width: 1600px;
+    position: absolute;
+    top: -160px;
+    filter: blur(50px);
+    left: -300px;
+    height: 1100px;
+    display: block;
+    opacity: 35%;
+    z-index: -1;
+
+}
+#imc-content-img {
+    width: 800px;
+    height: 0px;
+}
+@media only screen and (max-width: 1370px) {
+#imc-img {
+    width: 800px;
+    height: 334px;
+    display: none;
+    }
+
+
+
+}
+
+/*footer*/
+#categorias-footer {
+    display: inline;
+    margin: auto;
+    position: relative;
+    left: 588px;
+}
+#categorias-footer a{
+    text-decoration: none;
+    color: rgb(92, 92, 92);
+    font-family: Arial;
+    font-size: 15px;
+    position: relative;
+    top: 45px;
+    margin: 10px;
+}
+footer {
+    background-color:#aed6e2;
+    padding: 30px;
+    border-top: 2px solid #6e97a3;
+    border-bottom: 2px solid #6e97a3;
+}
+#img-footer {
+    position: relative;
+    top: -8px;
+    left: -545px;
+    width: 10%;
+    margin: auto;
+}
+#calculo-background {
+    visibility: hidden;
+    font-family: Arial;
+    position: relative;
+    left: 340px;
+    bottom: 250px;
+    background-color: white;
+    border-radius: 20px;
+    width: 560px;
+    padding: 10px 0px 80px 130px;
+    margin: auto;
+
+}
+#calculo-titulo {
+    font-weight: bold;
+    font-size: 25px;
+    position: relative;
+    left: 65px;
+
+}
+
+#text-calculo-class {
+    position: absolute;
+    left: 370px;
+    bottom: 400px;
+    visibility: hidden;
+    margin: auto;
+    text-align: center;
+    
+}
+#imc-results-nivel {
+    text-align: center;
+    font-size: 18px;
+
+}
+
+#inputs-calculo input{
+    border: 0px;
+    background-color: #f7f7f7;
+    padding: 20px;
+    outline: none;
+    margin: 10px;
+    border-radius: 5px;
+}
+#inputs-calculo {
+    position: relative;
+    left: -80px;
+    top: 30px;
+    width: 226px;
+}
+    
+#inputs-calculo input:hover {
+    background-color: #f1f1f1;;
+}
+
+#button-calcular {
+    position: relative;
+    top: 40px;
+    right: 35px;
+    width: 149px;
+}
+#button-calcular button{
+    background-color: #1f5eaf;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+#button-calcular button:hover{
+    background-color: #002a60;
+    transition: 0.3s;
+}
+
+#button-feedback {
+    position: relative;
+    top: 55px;
+    right: 56px;
+    width: 187px;
+}
+#button-feedback button{
+    background-color: #ff5202;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border-radius: 20px;
+    padding: 11px;
+    padding-left: 60px;
+    padding-right: 60px;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+    color: white;
+}
+#button-feedback button:hover{
+    background-color: #c23d00;
+    transition: 0.3s;
+}
+
+
+
+
+/* Sub-Menus */
+
+#sub_menus_user_login{
+    font-size: 15px;
+    color: black;
+    padding: 10px;
+    font-weight: bold;
+    padding-left: 55px;
+    padding-right: 55px;
+    border: none;
+    background-color: #fff;
+    cursor: pointer;
+    border-radius: 15px;
+    transition: 0.3s;
+
+}
+
+#sub_menus_user_login:hover {
+    background-color: #0090DE;
+    color: white;
+}
+
+#menu_user {
+    background-color: rgb(255, 255, 255);
+    width: 150px;
+    border-radius: 15px;
+    position: absolute;
+    right: 0px;
+    top: 103px;
+    transition: 0.1s;
+    visibility: hidden;
+    opacity: 0%; 
+}
+

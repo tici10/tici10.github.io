@@ -1,0 +1,101 @@
+
+#sub_categorias_esportes ul li a {
+    display: inline;
+    padding: 10px 50px 10px 50px;
+    border: none;
+    width: 70%;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    transition: 0.3s;
+    border: 1px solid rgb(0, 0, 0);
+}
+#sub_categorias_esportes ul li a:hover {
+    display: inline;
+    padding: 10px 50px 10px 50px;
+    border: none;
+    width: 70%;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    border: 1px solid white;
+}
+#sub_categorias_esportes ul li{
+    display: inline;
+
+}
+#sub_categorias_esportes{
+    display: inline;
+    width: 70%;
+
+}
+
+
+#atividades {
+    position: relative;
+    top: 250px;
+    display: inline;
+    width: 70%;
+}
+
+#esportes h1{
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
+#esportes {
+    text-align: center;
+    margin-bottom: 100px;
+}
+#exercicios_simples {
+    text-align: center;
+}
+
+
+#sub_categorias_exercs ul li a {
+    display: inline;
+    padding: 10px 50px 10px 50px;
+    border: none;
+    width: 70%;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    font-size: 25px;
+    border: 1px solid rgb(0, 0, 0);
+    transition: 0.3s;
+    
+}
+#sub_categorias_exercs ul li a:hover {
+    display: inline;
+    padding: 10px 50px 10px 50px;
+    border: none;
+    width: 70%;
+    text-align: center;
+    border-radius: 10px;
+    margin: 10px;
+    text-decoration: none;
+    color: white;
+    background-color: black;
+    font-size: 25px;
+    border: 1px solid white;
+}
+#sub_categorias_exercs ul li{
+    display: inline;
+}
+
+#exercicios_simples h1 {
+    font-size: 40px;
+    margin-bottom: 50px;
+    text-align: center;
+}
